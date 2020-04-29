@@ -7,7 +7,7 @@ export default class Matrix extends Component {
   genRow = (vals) => {
     console.log("vals : " + vals[0]);
 //    return vals.map(val => <div className="cell" style={{backgroundColor: val}}></div>)
-// replace me and render a cell component instead!
+//    replace me and render a cell component instead!
     return vals.map(val => <Cell value={val} />)
   }
   
